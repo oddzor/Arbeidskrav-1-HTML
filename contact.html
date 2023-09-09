@@ -19,7 +19,7 @@
       <table>
         <tr>
           <td>
-            <section>
+            <section id="mainsection">
               <font face="Verdana" size="3"
                 >Preferred methods of contact <i><u>in order:</u></i>
                 <br /><br /><br /><br /><br />
@@ -74,37 +74,50 @@
                             <input type="text" required /><br />
                             <label for="text">Phone</label><br />
                             <input type="text" required /><br /><br />
-                            <label for="rateme">Rate My Code</label>
                             <select name="rateme" id="rateodd">
+                              <option value="1" disabled selected>
+                                Rate my page
+                              </option>
                               <optgroup label="Correct">
-                                <option value="1" selected>
-                                  Perfect - 10/10
-                                </option>
-                                <option value="2">
+                                <option value="2">Perfect - 10/10</option>
+                                <option value="3">
                                   Perfect, but more - 10/10
                                 </option>
-                                <option value="3">
+                                <option value="4">
                                   Absolutely Awesome - 10/10
                                 </option>
-                                <option value="4">
+                                <option value="5">
                                   Spectacularly Great - 10/10
                                 </option>
-                                <option value="5">God Tier - 10/10</option>
+                                <option value="6">God Tier - 10/10</option>
                               </optgroup>
                               <optgroup label="Incorrect">
-                                <option value="6" disabled>
+                                <option value="7" disabled>
                                   Trash"">/div><" - 1/10
                                 </option>
-                                <option value="7" disabled>
+                                <option value="8" disabled>
                                   Less trash - 2/10
                                 </option>
                               </optgroup></select
                             ><br /><br />
-                            <label for="file">Add attachment</label><br /><br />
+                            <label for="file"
+                              ><font color="a7a7a7">Add attachment</font></label
+                            ><br /><br />
                             <input type="file" /><br /><br />
-                            <label for="radio">Send job offer?</label><br />
-                            <input type="radio" checked /><br /><br />
-                            <label for="addcomment"></label>
+                            <table>
+                              <tr>
+                                <td>
+                                  <label for="radio">Send job offer?</label
+                                  ><br />
+                                </td>
+
+                                <td>
+                                  <sub><input type="radio" checked /></sub
+                                  ><br />
+                                </td>
+                              </tr>
+                            </table>
+                            <br />
                             <textarea
                               cols="30"
                               rows="5"
@@ -123,14 +136,15 @@
           </td>
         </tr>
       </table>
-      <div>
+      <br />
+      <nav>
         <font face="Verdana">
           <br />
-          <a href="index.html">RETURN TO HOMEPAGE</a> |
+
           <a href="portfolio.html">PORTFOLIO</a> |
-          <a href="about me.html">ABOUT ME</a>
+          <a href="index.html">ABOUT ME</a>
         </font>
-      </div>
+      </nav>
     </main>
     <hr />
     <footer>
